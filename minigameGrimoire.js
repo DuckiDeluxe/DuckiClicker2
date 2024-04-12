@@ -16,7 +16,7 @@ M.launch=function()
 				failDesc:'Trigger a 15-minute clot and lose 15 minutes of CpS.',
 				icon:[21,11],
 				costMin:0,
-				costPercent:0.4,
+				costPercent:0.0,
 				win:function()
 				{
 					var val=Math.max(7,Math.min(Game.cookies*0.15,Game.cookiesPs*60*30));
